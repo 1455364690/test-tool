@@ -20,6 +20,10 @@ public class CreateNode {
         createNode2019(catchRate2019);
     }
 
+    public static void createCatchNode() throws Exception{
+
+    }
+
     public static void createNode2018(double rate) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("input2018")));
         File create = new File("2018node.json");
